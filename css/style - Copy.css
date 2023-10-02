@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #78008d;
+    color: #fff;
+    padding: 10px 0;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    max-height: 40px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    margin-right: 20px;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav a:hover {
+    color: #e29dee;
+}
+
+main {
+    padding: 20px;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main2 {
+    padding: 20px;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+main3 {
+    padding: 20px;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.block {
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.block img {
+    max-width: 100px;
+}
+
+.hero {
+    background-image: url('');
+    background-size: cover;
+    text-align: left;
+    display: flex;
+    padding: 100px 0;
+    color: #000000;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 400px;
+    margin-right: 20px; 
+}
+
+.hero .text {
+    flex: 1;
+    padding: 20px;
+    border-left: 4px solid #ccc;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #78008d;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    height: 5vh;
+    margin-top: auto;
+}
