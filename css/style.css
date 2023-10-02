@@ -194,3 +194,8 @@ footer {
     margin: 20px;
 }
 
+.paragrs p {
+    margin: 16px;
+    margin-left: 0;
+}
+
