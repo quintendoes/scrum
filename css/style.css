@@ -134,13 +134,16 @@ main4 {
 
 .title-photo {
     display: flex;
-    max-height: 120px;
+    max-height: 240px;
     justify-content: center;
     justify-items: center;
 
-    margin-left: 20px;
-    margin-right: 20px;
 
+}
+.title-photo img {
+    max-width: 100%;
+    object-fit: contain;
+    height: auto;
 }
 
 .hero {
