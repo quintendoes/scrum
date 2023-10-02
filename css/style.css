@@ -102,6 +102,11 @@ main4 {
     border-radius: 5px;
 }
 
+.block > a {
+    text-decoration: none;
+    color: #000000;
+}
+
 .paragrs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
