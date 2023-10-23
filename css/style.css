@@ -110,6 +110,7 @@ main {
 .block img { 
     max-height: 160px;
     margin: 10px;
+    object-fit: contain;
 }
 
 .cta-button {
@@ -174,6 +175,10 @@ main {
 .grid-4 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.gap {
     gap: 20px;
 }
 
