@@ -107,7 +107,8 @@ main{
 }
 
 .block img { 
-    max-width: 220px;
+    max-height: 160px;
+    margin: 10px;
 }
 
 .cta-button {
@@ -185,8 +186,11 @@ h2:not(.title h2), h3 {
 
 .center {
     align-items: center;
-    justify-content: center;
     text-align: center;
+}
+
+.center-text {
+    justify-content: center;
 }
 
 /* Footer styles */
