@@ -194,6 +194,9 @@ h2:not(.title h2), h3 {
     justify-content: center;
 }
 
+.extra-margin{
+    margin: 0 20%;
+}
 /* Footer styles */
 
 footer {
