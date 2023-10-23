@@ -77,6 +77,7 @@ header nav a:hover {
 .title-photo img {
     object-fit: contain;
     height: auto;
+    max-width: 60vh;
 }
 
 
