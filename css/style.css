@@ -63,6 +63,7 @@ header nav a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 20vh;
 }
 
 .title-photo {
@@ -84,7 +85,7 @@ header nav a:hover {
 
 main{
     padding: 20px;
-    margin: auto;
+    margin: auto 20vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
