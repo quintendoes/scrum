@@ -68,7 +68,7 @@ header nav a:hover {
 }
 
 .title-photo {
-    padding-top: 20px;
+    margin: 10px 20vh;
     display: flex;
     max-height: 240px;
     justify-content: center;
