@@ -120,6 +120,10 @@ main {
     justify-content: space-between;
 }
 
+.space {
+    justify-content: space-between;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
