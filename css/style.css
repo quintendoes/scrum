@@ -86,10 +86,13 @@ main {
     color: #000000;
 }
 
-.block img { 
-    max-height: 160px;
+.block > img { 
     margin: 10px;
+}
+
+.block img {
     object-fit: contain;
+    max-height: 160px;
 }
 
 .cta-button {
