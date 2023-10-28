@@ -4,7 +4,6 @@
     padding: 0;
 }
 
-
 /* Global styles */
 body {
     font-family: 'Roboto', Arial, sans-serif;
@@ -76,7 +75,7 @@ main {
 /* Block styles */
 
 .block {
-    text-align: left;
+    text-align: left;   
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 15px;
@@ -104,11 +103,11 @@ main {
 }
 
 /* Over-ons styles */
-.over-ons img {
+#over-ons img {
     max-width: 400px;
     margin: auto;
 }
-.over-ons-conteiner {
+#over-ons > div {
     display: flex;
     flex-direction: column;
     border-left: 4px solid #ccc;
@@ -160,6 +159,12 @@ h2, h3 {
 .extra-margin{
     margin-left: 20%;
     margin-right: 20%;
+}
+.forse-img-size {
+    object-fit: fill !important;
+    flex-shrink: 0;
+    height: 160px;
+    width: 240px;
 }
 
 
