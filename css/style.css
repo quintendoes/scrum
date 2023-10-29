@@ -161,7 +161,6 @@ h2, h3 {
     margin-right: 20%;
 }
 .forse-img-size {
-    object-fit: fill !important;
     flex-shrink: 0;
     height: 160px;
     width: 240px;
