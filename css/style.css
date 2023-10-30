@@ -107,7 +107,7 @@ main {
     max-width: 400px;
     margin: auto;
 }
-#over-ons > div {
+#over-ons > article {
     display: flex;
     flex-direction: column;
     border-left: 4px solid #ccc;
