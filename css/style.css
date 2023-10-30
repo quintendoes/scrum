@@ -115,6 +115,10 @@ main {
     padding-left: 20px;
 }
 
+#right-float {
+    float: right;
+}
+
 
 /* Utility classes */
 .flex {
